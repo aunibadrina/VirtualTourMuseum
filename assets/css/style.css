@@ -16,8 +16,13 @@
     padding:0;
     list-style:none;
     line-height:1.6;
-    font-size:14px;
+    font-size: 18px;
     margin-bottom:0;
+  }
+
+  .footer-dark ul li{
+    padding-left: 15px; 
+    padding-right: 15px;
   }
   
   .footer-dark ul a {
