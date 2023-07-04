@@ -993,7 +993,7 @@ Create NFT Style
 --------------------------------------------- 
 */
 
-.sec-section {
+.create-nft {
   background-image: url(../images/main-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1002,32 +1002,32 @@ Create NFT Style
   position: relative;
 }
 
-.sec-section .section-heading .line-dec {
+.create-nft .section-heading .line-dec {
   margin-left: 0%;
   background-color: #fff;
 }
 
-.sec-section .section-heading {
+.create-nft .section-heading {
   text-align: left;
   margin-bottom: 50px;
 }
 
-.sec-section .main-button {
+.create-nft .main-button {
   text-align: right;
 }
 
-.sec-section .item {
+.create-nft .item {
   margin-top: 30px;
   position: relative;
 }
 
-.sec-section .first-item .number {
+.create-nft .first-item .number {
   position: absolute;
   right: 0;
   top: -20px;
 }
 
-.sec-section .first-item:after {
+.create-nft .first-item:after {
   position: absolute;
   width: 1px;
   height: 95%;
@@ -1037,13 +1037,13 @@ Create NFT Style
   top: 5%;
 }
 
-.sec-section .second-item .number {
+.create-nft .second-item .number {
   position: absolute;
   right: 0;
   top: -20px;
 }
 
-.sec-section .second-item:after {
+.create-nft .second-item:after {
   position: absolute;
   width: 1px;
   height: 95%;
@@ -1063,21 +1063,21 @@ Create NFT Style
   border-radius: 50%;
 }
 
-.sec-section .item .icon img {
+.create-nft .item .icon img {
   max-width: 31px;
 }
 
-.sec-section h4 {
+.create-nft h4 {
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
-.sec-section p {
+.create-nft p {
   margin-right: 30px;
 }
 
-.sec-section .item a {
+.create-nft .item a {
   color: #3CF;
 }
 
@@ -2063,18 +2063,18 @@ body {
   .categories .item {
     margin-bottom: 35px;
   }
-  .sec-section .section-heading,
+  .create-nft .section-heading,
   .currently-market .section-heading {
     text-align: center;
   }
   .currently-market-item {
     width: 100%;
   }
-  .sec-section .section-heading .line-dec,
+  .create-nft .section-heading .line-dec,
   .currently-market .section-heading .line-dec {
     margin: 0 auto;
   }
-  .sec-section .main-button,
+  .create-nft .main-button,
   .currently-market .filters {
     text-align: center;
   }
@@ -2082,16 +2082,16 @@ body {
     margin-bottom: 30px;
     margin-top: -30px;
   }
-  .sec-section p {
+  .create-nft p {
     margin-right: 0px;
   }
-  .sec-section .first-item:after,
-  .sec-section .second-item:after,
-  .sec-section .first-item .number,
-  .sec-section .second-item .number {
+  .create-nft .first-item:after,
+  .create-nft .second-item:after,
+  .create-nft .first-item .number,
+  .create-nft .second-item .number {
     display: none;
   }
-  .sec-section .item {
+  .create-nft .item {
     text-align: center;
     margin-top: 45px;
   }
