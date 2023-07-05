@@ -1950,6 +1950,7 @@ Author Page Style
 .author-page .item h4 {
   font-size: 20px;
   margin-top: 30px;
+  text-align: center;
 }
 
 .author-page .item .line-dec {
