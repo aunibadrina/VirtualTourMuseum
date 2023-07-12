@@ -217,6 +217,14 @@ section {
   margin: 0 auto 30px auto;
 }
 
+.section-heading .line-dec2 {
+  width: auto;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 0 auto 30px auto;
+}
+
+
 .section-heading h2 {
   margin-top: 10px;
   line-height: 36px;
@@ -824,7 +832,7 @@ Categories & Collections Style
 }
 
 .categories-collections:after {
-  background-image: url(/assets/images/category-collection-dec.png);
+  /* background-image: url(/assets/images/category-collection-dec.png); */
   width: 300px;
   height: 282px;
   position: absolute;
@@ -1632,7 +1640,7 @@ Details Page Style
 }
 
 .item-details-page:after {
-  background-image: url(/assets/images/category-collection-dec.png);
+  /* background-image: url(/assets/images/category-collection-dec.png); */
   width: 300px;
   height: 282px;
   position: absolute;
