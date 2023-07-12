@@ -197,7 +197,7 @@ section {
 .section-heading {
   position: relative;
   z-index: 2;
-  margin-top: 80px;
+  margin-top: 0px;
   margin-bottom: 80px;
   text-align: center;
 }
@@ -2155,12 +2155,15 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 
 .green{
   background-color: #9976fc;
+  margin-bottom: 80px;
 }
+
 .green img{
    mix-blend-mode: multiply;
   -webkit-filter: grayscale(100%) contrast(1.2);
   filter: grayscale(100%) contrast(1);
 }
+
 .green::after{
   background-color: #252035;
   mix-blend-mode: lighten;
