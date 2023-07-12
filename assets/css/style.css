@@ -197,7 +197,7 @@ section {
 .section-heading {
   position: relative;
   z-index: 2;
-  margin-top: 0px;
+  margin-top: 80px;
   margin-bottom: 80px;
   text-align: center;
 }
