@@ -224,6 +224,12 @@ section {
   margin: 0 auto 30px auto;
 }
 
+.section-heading .line-dec3 {
+  width: auto;
+  height: 2px;
+  margin: 0 auto 30px auto;
+}
+
 
 .section-heading h2 {
   margin-top: 10px;
