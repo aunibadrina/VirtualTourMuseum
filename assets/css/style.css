@@ -2415,6 +2415,28 @@ section:nth-of-type(6) .column:nth-of-type(2) {
     margin-bottom:0;
   }
   
+  .back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    width: 50px;
+  }
+
+  .back-to-top:hover {
+    background-color: #777;
+  }
+
+
  /* https://epicbootstrap.com/snippets/footer-dark */
 
 /*end footer style*/

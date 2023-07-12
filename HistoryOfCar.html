@@ -53,10 +53,10 @@
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="inventions.html">Inventions</a></li>
+                            <li><a href="#">Inventions</a></li>
                             <li><a href="HistoryOfCar.html" class="active">History</a></li>
-                            <li><a href="typeofcar.html">Car Types</a></li>
                             <li><a href="aboutus.html">About</a></li>
+                            <li><a href="typeofcar.html">Car Types</a></li>
                         </ul>   
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -99,15 +99,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="section-heading">
+                    <div class="section-heading" id="choose">
                         <div class="line-dec"></div>
                         <h2>History <em>Begins</em> Here.</h2>
                         
+                        <br><br><br>
+                        <h4>The Timeline</h4>
                     </div>
                 </div>
 
                 <div class="col-lg-12 text-center" >
-                    <h4>The Timeline</h4>
                     <button class="button-85" onclick="window.location.href = '#1902';">1902</button>
                     <button class="button-85" onclick="window.location.href = '#1909';">1909</button>
                     <button class="button-85" onclick="window.location.href = '#1956';">1956</button>
@@ -390,6 +391,10 @@
                         <div class="line-dec2"></div>
                     </div>
                 </div>
+                <a href="#choose" class="back-to-top btn btn-primary" id="backToTopBtn">
+                    <i class="fas fa-arrow-up"></i>
+                  </a>
+                  
                 </div>
                 </div>
                 </div>
@@ -426,6 +431,22 @@
                     </footer>
 
                     <!-- Scripts -->
+                    <script>//untuk back to top
+                        window.onscroll = function() { scrollFunction() };
+                      
+                        function scrollFunction() {
+                          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                            document.getElementById("backToTopBtn").style.display = "block";
+                          } else {
+                            document.getElementById("backToTopBtn").style.display = "none";
+                          }
+                        }
+                      
+                        document.getElementById("backToTopBtn").onclick = function() {
+                          document.getElementById("choose").scrollIntoView({ behavior: 'smooth' });
+                        };
+                      </script>
+                      
                     <!-- Bootstrap core JavaScript -->
                     <script src="vendor/jquery/jquery.min.js"></script>
                     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
